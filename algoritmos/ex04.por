@@ -3,9 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-	     caracter nome1, nome2, nome3
+	     cadeia nome1, nome2, nome3
 	     inteiro idade1, idade2, idade3
-
 	     
 		escreva("======   LER 4 NOTAS E VERIFICAR APROVAÇÃO ========  \n")
 		escreva("DIGITE O PRIMEIRO NOME : ")
@@ -52,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 110; 
+ * @POSICAO-CURSOR = 50; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
