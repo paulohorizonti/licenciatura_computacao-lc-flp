@@ -10,7 +10,7 @@ Dica 2: Veja como funcionam as funções mat.potencia() e mat.raiz ()*/
 #include <stdio.h>
 #include <unistd.h>
 #include <math.h>
- 
+
 
 int main() {
     float a, b, c, delta, raiz1, raiz2;
@@ -31,7 +31,7 @@ int main() {
 
     printf("O vlor de delta: %.2f",delta);
 
-    printf("\n=================================================\n");
+    printf("\n=======================================================================\n");
     printf("PASSO 3 : CALCULAR AS RAIZES BASEANA NA EXPRESSÃO x = – b ± √Δ / 2·a \n");
 
     if(delta<0)
@@ -46,11 +46,11 @@ int main() {
         printf("As raizes da equação são: %.2f e %.2f", raiz1, raiz2);
     }
 
-    
+
 
     printf("\n\n\n");
-    
+
     getchar();
-    
+
     return 0;
 }
